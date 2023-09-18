@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "serve": "parcel serve ./src/index.html", 
+    "clean": "rm -rf dist",
+    "build": "parcel build ./src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@parcel/resolver-default": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "gh-pages": "^6.0.0"
+  },
+  "dependencies": {
+    "parcel": "^2.9.3"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
