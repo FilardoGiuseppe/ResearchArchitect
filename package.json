@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "serve": "parcel serve ./src/index.html", 
+    "serve": "parcel serve ./src/index.html",
     "clean": "rm -rf dist",
     "build": "parcel build ./src/index.html --public-url ./",
     "deploy": "gh-pages -d dist"
@@ -13,5 +13,9 @@
   "dependencies": {
     "parcel": "^2.9.3"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "entryPoints": {
+    "style.css": "./src/styles.scss"
+  }
 }

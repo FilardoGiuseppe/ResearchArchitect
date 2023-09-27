@@ -88,7 +88,6 @@ document.querySelectorAll('[data-role=expandable]').forEach(expandable => {
         }
         expandable.classList.toggle('expanded');
     });
-
 });
 
 
