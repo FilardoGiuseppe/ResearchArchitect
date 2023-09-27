@@ -14,8 +14,5 @@
     "parcel": "^2.9.3"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "source": "src/index.html",
-  "entryPoints": {
-    "style.css": "./src/styles.scss"
-  }
+  "source": "src/index.html"
 }
