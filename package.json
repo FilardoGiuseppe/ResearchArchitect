@@ -3,7 +3,7 @@
     "serve": "parcel serve ./src/index.html",
     "clean": "rm -rf dist",
     "build": "parcel build ./src/index.html --public-url ./",
-    "deploy": "echo www.researcharchitect.org > ./dist/CNAME && gh-pages -d dist"
+    "deploy": "echo www.researcharchitect.org > ./dist/CNAME && cp ./src/google* ./dist && gh-pages -d dist"
   },
   "devDependencies": {
     "@parcel/resolver-default": "^2.9.3",
