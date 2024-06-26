@@ -3,6 +3,7 @@ header { display: none; }
 h2 { line-height: 1.2em; font-size: 1.5em; }
 h3 { margin-top: 10px; }
 #author { display: none; }
+article .article-section img { box-shadow: none; }
 article h3 { position: static !important; }
 [data-role=read_more] { max-height: none !important; }
 [data-role=read_more] [data-role=content] { -webkit-mask-image: none !important; mask-image: none !important; }

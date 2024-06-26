@@ -239,6 +239,13 @@ article {
         isolation: isolate;
     }
 
+    .article-section img {
+        display: block;
+        margin: 10px auto;
+        box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.2);
+        max-width: 90%;
+    }
+
     .article-section h3 {
         position: sticky;
         top: calc(var(--header-height));
@@ -427,6 +434,10 @@ dialog {
         max-width: calc(100% - 20px);
         max-height: 100%;
         border-radius: 0;
+    }
+
+    article .article-section img {
+        max-width: 100%;
     }
 }
 
